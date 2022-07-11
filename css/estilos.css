@@ -71,6 +71,35 @@ nav .active {
 #stack-tecnologico .tecnologia img{
     height: 58px;
 }
+#idiomashobbies{
+    background-color: #EEEEEE;
+}
+.card-idioma{
+    background-color: white;
+    border-radius: 15px;
+    
+}
+#idiomashobbies h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+.card{
+    
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomashobbies .fas{
+    font-size: 80px;
+    color: white;
+   
+}
 #experiencia h2{
     font-size: 24px;
     color:#370a6d;
@@ -93,6 +122,38 @@ nav .active {
     font-size: 24px;
     color:#E20000;
     font-weight: 400;
+}
+#cursos h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#cursos h4{
+    font-size: 17px;
+    color:#E20000;
+}
+#cursos h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#formacion h2{
+    font-size: 24px;
+    color:#E20000;
+    font-weight: 400;
+    padding-right: 15px;
+}
+#formacion h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#formacion h4{
+    font-size: 17px;
+    color:#E20000;
+}
+#formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
 }
 #proyectos {
     background-image: url(../images/fondo-proyectos.png);
@@ -178,20 +239,20 @@ p {
     bottom: 0px;
 }
 
-#contacto footer {
+ footer {
     color: white;
 }
 
-#contacto footer a {
+footer a {
     color: white;
 }
 
-#contacto footer .fa-github {
+ footer .fa-github {
     font-size: 30px;
     color: white;
 }
 
-#contacto footer .fa-linkedin-in {
+footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 22px;
@@ -253,13 +314,22 @@ p {
 }
 
 #inicio img {
-    height: 600px;
+    height: 500px;
 
 }
 
 #inicio img:hover {
-    height: 610px;
-
+    height: 510px;
+}
+.cohete{
+    height: 500px;
+}
+#inicio p{
+    color: white;
+    font-size: 17px;
+    border: 1px white solid;
+    border-radius: 15px;
+    font-weight: 600;
 }
 
 @media (max-width: 750px) {
