@@ -15,7 +15,8 @@ nav {
 
 nav .active {
     border: 1px solid #E20000;
-    border-radius: 25px;
+    border-radius: 20px;
+    border-left: 20px;
 }
 
 .navbar {
